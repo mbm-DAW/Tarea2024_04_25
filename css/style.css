@@ -1,0 +1,86 @@
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+#nav {
+    background-color: #0e0302;
+    border-radius: 20px;
+}
+
+#menu {
+    list-style: none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px; 
+}
+
+#menu li {
+    display: inline;
+    padding: 50px 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu li a:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+#img_inicio {
+    float: left;
+}
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 2px ridge rgb(248, 248, 250);
+    border-collapse: collapse;
+    background-color: rgb(44, 54, 51);
+}
+
+table {
+    width: 30%;
+    margin: auto;
+}
+
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#lista {
+    width: 30%;
+    margin: auto;
+}
+
+#contactos {
+    width: 30%;
+    margin: auto;
+}
+
+#formulario{
+    width: 30%;
+    margin: auto;
+}
